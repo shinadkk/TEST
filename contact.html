@@ -1,8 +1,10 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website - Home</title>
+    <title>Simple Website - Contact</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,25 +20,15 @@
 </nav>
 
 <div class="container">
-    <h2>Home Page</h2>
-    <p>This is the home page of our simple website.</p>
-    <div id="time">Current Time: <span id="current-time">--:--:--</span></div>
+    <h2>Contact Page</h2>
+    <p>Feel free to reach out to us!</p>
+    <p>Email: info@example.com</p>
+    <p>Phone: +123 456 7890</p>
 </div>
 
 <footer>
     <p>&copy; 2025 Simple Website. All rights reserved.</p>
 </footer>
-
-<script>
-    function updateCurrentTime() {
-        const now = new Date();
-        const timeString = now.toLocaleTimeString();
-        document.getElementById('current-time')?.textContent = timeString;
-    }
-
-    setInterval(updateCurrentTime, 1000);
-    updateCurrentTime();
-</script>
 
 </body>
 </html>
